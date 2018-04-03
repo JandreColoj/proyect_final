@@ -1,0 +1,577 @@
+@import url("fonts/stylesheet.css");
+.row {
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
+.logo{
+    top: 0px;
+    margin-top: -40px;
+    width: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+     -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s ease-out 0.1s;
+    transition: transform 0.4s ease-out 0.1s;
+       
+}
+.header.affix .logo {
+    top: 0;
+    width: 85px;
+    margin-top: -117px;
+    margin-left: 50px;
+    margin-right: 50px;
+   -ms-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: -webkit-transform 0.2s ease-out .1s;
+    transition: transform 0.2s ease-out .1s;
+}
+.header.affix .links{
+    display: none;    
+}
+.header.affix a.int-collapse-menu, .header.affix a.int-collapse-menu:hover, .header.affix a.int-collapse-menu:focus {
+    color: #848484;
+}
+
+.header.affix a.int-collapse-menu > a:active{
+    color: #3ab54a;
+}
+.contact-wrapper {
+    display: block;
+    padding: 70px 0;
+    position: relative;
+    background-color: #F7F7F7;
+}
+.circle {
+    height: 500px;
+    width: 500px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 100%;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    z-index: 9999999999;
+    left: 0;
+    right: 0;
+    top: 0 !important;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    zoom:1;
+}
+.title1 {
+    text-align: center;
+    font-size: 135px;
+    line-height: 60px;
+    color: #ffb11b;
+    letter-spacing: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    font-family: 'Neo Sans W1G';
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 135px;
+}
+.title2 {
+    text-align: center;
+    font-size: 95px;
+    line-height: 165px;
+    color: #fff;
+    letter-spacing: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    font-family: 'Neo Sans W1G';
+    font-weight: normal;
+    font-style: normal;
+}
+.read-more-slide {
+    background: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 45px;
+}
+.read-more-slide:hover{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.nat-01{
+    background: url(../images/01.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+.nat-02{
+    background: url(../images/02.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+.nat-03{
+    background: url(../images/03.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+.title-g{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Neo Sans W1G';
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    text-transform: uppercase;
+}
+.title-gm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Neo Sans W1G';
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    text-transform: uppercase;
+    background: #f5f5f5;
+}
+.title-g span{
+    color: #3ab54a;
+}
+.title-g-2{
+    position: absolute;
+    padding: 45px 35px 45px 35px;
+    font-family: 'Neo Sans W1G';
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    background: #3ab54a;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    bottom: 0;
+    left: 0;
+}
+.title-g-2 span{
+    color: #fff;
+}
+.w-section{
+    background-color: #2da843;
+}
+.w-section {
+    position: relative;
+    padding: 95px 0;
+}
+.section-background {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+.bg-image {
+    -webkit-background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-wrapper{
+    background-image:url(../images/bg-011.jpg);
+    background-position:right top;
+}
+.navbar-default {
+    background: none;
+    border: none;
+     margin-top: 0px; 
+    margin-bottom: 0px;
+}
+.w-row-flex>.col>.col-inner {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+}
+.w-text-block h2{
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+}
+.w-text-block p span{
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+.w-info-box .w-icon {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 15px;
+    height: 100px;
+    vertical-align: middle;
+}
+.w-content h3{
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+}
+.w-content p span{
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.w-read-more a{
+    color: #cecece;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.razon{
+    background-color: #000;
+    min-height: 300px;
+}
+.number{
+    position: absolute;
+    text-align: right;
+    right: 0;
+    padding: 25px 25px 0 0;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    opacity: 0.75;
+}
+.razon-01{
+    background-image: url(../images/r01.jpg);
+    background-size: cover;
+}
+.razon-02{
+    background-image: url(../images/r02.jpg);
+    background-size: cover;
+}
+.razon-03{
+    background-image: url(../images/r03.jpg);
+    background-size: cover;
+}
+.razon-04{
+    background-image: url(../images/r04.jpg);
+    background-size: cover;
+}
+.razon-05{
+    background-image: url(../images/r05.jpg);
+    background-size: cover;
+}
+.razon-06{
+    background-image: url(../images/r06.jpg);
+    background-size: cover;
+}
+.razon-07{
+    background-image: url(../images/r07.jpg);
+    background-size: cover;
+}
+.razon-08{
+    background-image: url(../images/r08.jpg);
+    background-size: cover;
+}
+.text-r{
+    position: absolute;
+    bottom: 0;
+    color:#fff;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    vertical-align: bottom;
+    padding: 25px 10px;
+    line-height: 1.2;
+}
+.links{
+    margin-left: 10px;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 5px;
+    margin-left: -10px;
+    background-color: #000;
+    background-image: url(../images/foot.jpg);
+    background-size: cover;
+    background-position: left 72%;
+    color: #fff;
+    letter-spacing: 1.2pt;
+}
+.links i{
+    color: #2da843;
+    
+}
+.links span{
+    margin-left: 25px;
+}
+.links hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.links > .social-links{
+    float: right;
+    margin-right: 25px;
+}
+.links > .social-links span i{
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.featured-box{
+    text-transform: uppercase;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:bolder;
+    color: #fff;
+   
+}
+.featured-box h1{
+     font-size: 48px!important;
+}
+.featured-box span{
+    color: #2da843
+}
+.footer-wrapper{
+    background-color: #000;
+    background-image: url(../images/foot.jpg);
+    background-size: cover;
+    background-position: left 30%;
+}
+.socialFooter a{
+    color: #fff;
+    float: right;
+    display: inline-grid;
+    text-transform: uppercase;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:400;
+    padding-right: 20px;
+    text-align: left;
+    
+}
+.title-page{
+    position: relative;
+    background: url(../images/bg-pages.jpg);
+    padding: 400px 0 200px 0;
+    text-align: center;
+    font-size: 48px!important;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:normal;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title-page2{
+    background: rgba(0,0,0,0.75);
+   
+}
+.title-page2::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-pages2.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.title-page span{
+    color: #2da843;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #3ab54a;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.title-us{
+     text-transform: uppercase;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    letter-spacing: -1px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    display: inline-block;
+    margin: 75px 25px 25px 25px;
+}
+.content-us {
+    margin: 10px 25px 75px 25px;
+    text-align: justify;
+    color: #888;
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+}
+img.us-img1{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    max-height: 300px;
+}
+.img-products{
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.img-products span{
+    font-family: 'Neo Sans W1G';
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.img-products img{
+    max-width: 330px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #3ab54a;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #3ab54a;
+    }
+    .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+        text-align: center;
+        overflow: hidden !important;
+    }
+    .logo{
+        top: 0px;
+        margin-top: -15px;
+        width: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .header.affix  .logo {
+        top: 0;
+        width: 60px;
+        margin-top: -115px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .circle {
+        position: absolute !important;
+        height: 500px;
+        width: 500px;
+        left: 0 !important;
+        right: 0;
+        top: 0!important;
+        bottom: 0;
+        margin: auto !important;
+        zoom: 0.5;
+    }   
+    .read-more-slide {
+        zoom:1.5;
+    }
+    .tp-rightarrow.default, .tp-leftarrow.default{
+        display: none;
+    }
+    
+    .tp-caption p {
+        line-height: 1;
+    }
+    .featured-box h1 {
+        font-size: 38px!important;
+    }
+    .featured-box h1 {
+        font-size: 36px!important;
+    }
+    .w-text-block h2 {
+        font-family: 'Neo Sans W1G';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+    }
+    h1, .h1 {
+        font-size: 20px;
+    }
+    .title-g-2 {
+        position: absolute;
+        padding: 21px 26px 23px 35px;
+        font-family: 'Neo Sans W1G';
+        font-weight: bold;
+        font-style: normal;
+        color: #000;
+        background: #3ab54a;
+        font-size: 24px;
+        text-transform: uppercase;
+        line-height: 27px;
+        bottom: 0;
+        left: 0;
+    }
+    .nat-01, .nat-02, .nat-03 {
+        min-height: 178px;
+    }
+    .title-page {
+        padding: 100px 0 50px 0;
+        line-height: 53px;
+    }
+    
+}

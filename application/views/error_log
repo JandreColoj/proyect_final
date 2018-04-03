@@ -1,0 +1,2 @@
+[09-Mar-2018 16:15:53 America/Chicago] PHP Warning:  require_once(conexion.php): failed to open stream: No such file or directory in /home4/juancho1/public_html/demos/lacarreta/productos.php on line 1
+[09-Mar-2018 16:15:53 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'conexion.php' (include_path='.:/opt/php54/lib/php') in /home4/juancho1/public_html/demos/lacarreta/productos.php on line 1
